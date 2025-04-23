@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nbf2/my_ros2_controllers/mecanum_drive_controller" FILES "/home/nbf2/my_ros2_controllers/mecanum_drive_controller/build/this_mecanum_drive_controller/ament_cmake_index/share/ament_index/resource_index/packages/this_mecanum_drive_controller" "DESTINATION" "share/ament_index/resource_index/packages")

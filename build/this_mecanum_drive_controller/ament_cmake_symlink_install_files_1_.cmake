@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/nbf2/my_ros2_controllers/mecanum_drive_controller" FILES "/opt/ros/rolling/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/this_mecanum_drive_controller/environment")

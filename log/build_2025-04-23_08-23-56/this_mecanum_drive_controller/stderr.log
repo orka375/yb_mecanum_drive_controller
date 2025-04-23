@@ -1,0 +1,53 @@
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type this_mecanum_drive_controller::This_MecanumDriveController::[01;32m[Kupdate_and_write_commands[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:384:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  384 |   const double wheel_front_left_state_vel = [01;35m[Kstate_interfaces_[FRONT_LEFT].get_value()[m[K;
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/rolling/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+                 from [01m[K/opt/ros/rolling/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+                 from [01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/include/this_mecanum_drive_controller/mecanum_drive_controller.hpp:27[m[K,
+                 from [01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:15[m[K:
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:385:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  385 |   const double wheel_front_right_state_vel = [01;35m[Kstate_interfaces_[FRONT_RIGHT].get_value()[m[K;
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:386:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  386 |   const double wheel_rear_right_state_vel = [01;35m[Kstate_interfaces_[REAR_RIGHT].get_value()[m[K;
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:387:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  387 |   const double wheel_rear_left_state_vel = [01;35m[Kstate_interfaces_[REAR_LEFT].get_value()[m[K;
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:508:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  508 |       [01;35m[Kstate_interfaces_[FRONT_LEFT].get_value()[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:510:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  510 |       [01;35m[Kstate_interfaces_[FRONT_RIGHT].get_value()[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:512:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  512 |       [01;35m[Kstate_interfaces_[REAR_RIGHT].get_value()[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nbf2/my_ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:514:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  514 |       [01;35m[Kstate_interfaces_[REAR_LEFT].get_value()[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/rolling/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
