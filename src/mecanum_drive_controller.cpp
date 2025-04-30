@@ -382,8 +382,8 @@ controller_interface::return_type This_MecanumDriveController::update_and_write_
 {
   // FORWARD KINEMATICS (odometry).
   const double wheel_front_left_state_vel = state_interfaces_[FRONT_LEFT].get_value();
-  const double wheel_front_right_state_vel = state_interfaces_[FRONT_RIGHT].get_value();
-  const double wheel_rear_right_state_vel = state_interfaces_[REAR_RIGHT].get_value();
+  const double wheel_front_right_state_vel = (-1)*state_interfaces_[FRONT_RIGHT].get_value();
+  const double wheel_rear_right_state_vel = (-1)*state_interfaces_[REAR_RIGHT].get_value();
   const double wheel_rear_left_state_vel = state_interfaces_[REAR_LEFT].get_value();
 
   if (
