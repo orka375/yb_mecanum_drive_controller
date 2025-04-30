@@ -68,13 +68,13 @@ bool Odometry::update(
 
   double velocity_in_center_frame_linear_x =
     0.25 * wheels_radius_ *
-    (wheel_front_left_vel + wheel_rear_left_vel - wheel_rear_right_vel - wheel_front_right_vel);
+    (wheel_front_left_vel + wheel_rear_left_vel + wheel_rear_right_vel + wheel_front_right_vel);
   double velocity_in_center_frame_linear_y =
     0.25 * wheels_radius_ *
-    (-wheel_front_left_vel + wheel_rear_left_vel + wheel_rear_right_vel - wheel_front_right_vel);
+    (-wheel_front_left_vel + wheel_rear_left_vel - wheel_rear_right_vel + wheel_front_right_vel);
   double velocity_in_center_frame_angular_z =
     0.25 * wheels_radius_ / sum_of_robot_center_projection_on_X_Y_axis_ *
-    (-wheel_front_left_vel - wheel_rear_left_vel - wheel_rear_right_vel - wheel_front_right_vel);
+    (-wheel_front_left_vel - wheel_rear_left_vel + wheel_rear_right_vel + wheel_front_right_vel);
 
   tf2::Quaternion orientation_R_c_b;
   orientation_R_c_b.setRPY(0.0, 0.0, -base_frame_offset_[2]);
