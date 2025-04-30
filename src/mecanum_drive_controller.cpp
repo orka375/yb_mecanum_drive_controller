@@ -392,8 +392,8 @@ controller_interface::return_type This_MecanumDriveController::update_and_write_
   {
     // Estimate twist (using joint information) and integrate
     odometry_.update(
-      wheel_front_left_state_vel, wheel_rear_left_state_vel, (-1)*wheel_rear_right_state_vel,
-      (-1)*wheel_front_right_state_vel, period.seconds());
+      wheel_front_left_state_vel, wheel_rear_left_state_vel, wheel_rear_right_state_vel,
+      wheel_front_right_state_vel, period.seconds());
   }
 
   // INVERSE KINEMATICS (move robot).
