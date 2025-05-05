@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_files("/home/nbf2/my_ros2_controllers/mecanum_drive_controller" FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/this_mecanum_drive_controller/environment")
+ament_cmake_symlink_install_files("/home/fabian/yb_mecanum_drive_controller" FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/this_mecanum_drive_controller/environment")

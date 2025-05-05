@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/ros/rolling/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nbf2/my_ros2_controllers/mecanum_drive_controller/build/this_mecanum_drive_controller")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/fabian/yb_mecanum_drive_controller/build/this_mecanum_drive_controller")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

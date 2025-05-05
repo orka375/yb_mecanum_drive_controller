@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nbf2/my_ros2_controllers/mecanum_drive_controller/install/this_mecanum_drive_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/fabian/yb_mecanum_drive_controller/install/this_mecanum_drive_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

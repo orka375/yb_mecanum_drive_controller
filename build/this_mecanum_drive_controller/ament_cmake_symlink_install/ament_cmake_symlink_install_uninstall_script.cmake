@@ -1,7 +1,7 @@
 # generated from
 # ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
 
-set(install_manifest "/home/nbf2/my_ros2_controllers/mecanum_drive_controller/build/this_mecanum_drive_controller/symlink_install_manifest.txt")
+set(install_manifest "/home/fabian/yb_mecanum_drive_controller/build/this_mecanum_drive_controller/symlink_install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find symlink install manifest: ${install_manifest}")
 endif()

@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/nbf2/my_ros2_controllers/mecanum_drive_controller/install/this_mecanum_drive_controller"}
+: ${AMENT_CURRENT_PREFIX:="/home/fabian/yb_mecanum_drive_controller/install/this_mecanum_drive_controller"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

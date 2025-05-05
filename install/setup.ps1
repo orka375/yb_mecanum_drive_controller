@@ -23,14 +23,6 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/rolling\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nbf2/articubot_one/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nbf2/twist_stamper/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nbf2/ros2_control_demos/example_12/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nbf2/ros2_control_demos/ros2_control_demo_description/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nbf2/ros2_control_demos/example_3/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nbf2/ros2_control_demos/example_8/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nbf2/youbot_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nbf2/ros_odrive/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)
